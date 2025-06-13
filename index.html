@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Save Oxygen Foundation </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-content">
+          <!-- Logo -->
+          <a href="#" class="logo">
+            <div class="logo-icon">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                />
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+              </svg>
+              <div class="logo-dot"></div>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title">Save Oxygen</span>
+              <span class="logo-subtitle">Foundation</span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <div class="nav-links desktop-nav">
+            <a href="#" class="nav-link active">Home</a>
+            <a href="#our-mission" class="nav-link">Our Mission</a>
+            <a href="#our-programs" class="nav-link">Programs</a>
+            <a href="#our-team" class="nav-link">Team</a>
+            <a href="#gallery" class="nav-link">Gallery</a>
+          </div>
+
+          <!-- CTA Button -->
+          <div class="nav-cta desktop-nav">
+            <a
+              href="https://wa.me/919398461218?text=Hi%2C%20I%20want%20to%20join%20the%20Save%20Oxygen%20Foundation."
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Join Our Mission
+            </a>
+          </div>
+
+
+          <!-- Mobile Menu Button -->
+          <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="4" x2="20" y1="6" y2="6" />
+              <line x1="4" x2="20" y1="12" y2="12" />
+              <line x1="4" x2="20" y1="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-content">
+          <div class="mobile-menu-header">
+            <a href="#" class="logo">
+              <div class="logo-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                  />
+                  <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                </svg>
+              </div>
+              <div class="logo-text">
+                <span class="logo-title">Save Oxygen</span>
+                <span class="logo-subtitle">Foundation</span>
+              </div>
+            </a>
+            <button class="mobile-menu-close" id="mobileMenuClose">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m18 6-12 12" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+          <div class="mobile-menu-links">
+            <a href="#" class="mobile-nav-link active">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                />
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+              </svg>
+              <span>Home</span>
+            </a>
+            <a href="about.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"
+                />
+              </svg>
+              <span>About</span>
+            </a>
+            <a href="work.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="4" />
+                <path d="m4.93 4.93 4.24 4.24" />
+                <path d="m14.83 9.17 4.24-4.24" />
+                <path d="m14.83 14.83 4.24 4.24" />
+                <path d="m9.17 14.83-4.24 4.24" />
+              </svg>
+              <span>Our Work</span>
+            </a>
+            <a href="programs.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M8 2v4" />
+                <path d="M16 2v4" />
+                <rect width="18" height="18" x="3" y="4" rx="2" />
+                <path d="M3 10h18" />
+              </svg>
+              <span>Programs</span>
+            </a>
+            <a href="team.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="m22 21-3-3" />
+                <path d="m17 17 5 5" />
+              </svg>
+              <span>Team</span>
+            </a>
+            <a href="volunteers.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M22 11l-3-3" />
+                <path d="M19 8v8" />
+              </svg>
+              <span>Volunteers</span>
+            </a>
+            <a href="gallery.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"
+                />
+                <circle cx="12" cy="13" r="3" />
+              </svg>
+              <span>Gallery</span>
+            </a>
+            <a href="contact.html" class="mobile-nav-link">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                />
+              </svg>
+              <span>Contact</span>
+            </a>
+          </div>
+          <div class="mobile-menu-footer">
+            <a href="join.html" class="btn btn-primary btn-block"
+              >Join Our Mission</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+          <div class="hero-content">
+            <div class="hero-text animate-slide-left">
+              <div class="hero-badge">
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                  />
+                  <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12" />
+                </svg>
+                Making Every Breath Count
+              </div>
+              <h1 class="hero-title">
+                Save Our Planet's
+                <span class="text-forest">Oxygen Sources</span>
+              </h1>
+              <p class="hero-description">
+                Join the Save Oxygen Foundation in our mission to preserve
+                forests, plant trees, and educate communities about the vital
+                importance of oxygen-producing ecosystems for our planet's
+                future.
+              </p>
+              <div class="hero-buttons">
+                <a href="https://wa.me/919398461218?text=Hi%2C%20I%20want%20to%20join%20the%20Save%20Oxygen%20Foundation." class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M22 11l-3-3" />
+                    <path d="M19 8v8" />
+                  </svg>
+                  Join Our Mission
+                </a>
+                <button class="btn btn-outline btn-lg">
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polygon points="5,3 19,12 5,21 5,3" />
+                  </svg>
+                  Watch Our Story
+                </button>
+              </div>
+              <div class="hero-stats">
+                <div class="stat">
+                  <div class="stat-number">20K+</div>
+                  <div class="stat-label">Trees Planted</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-number">1M Kg</div>
+                  <div class="stat-label">CO₂ Absorbed</div>
+                </div>
+                <div class="stat">
+                  <div class="stat-number">100+</div>
+                  <div class="stat-label">Volunteers</div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-image animate-slide-right">
+              <div class="hero-image-container">
+                <div class="hero-image-placeholder">
+                 <img src="./Images/hero.png" alt="" srcset="">
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mission Overview -->
+      <section class="mission" id="our-mission">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge">Our Mission</div>
+            <h2 class="section-title">
+              Protecting Earth's Life Support System
+            </h2>
+            <p class="section-description">
+              Through soil restoration, tree plantation, and environmental awareness,
+               we strive to build a greener planet with clean air, rich land, and conscious
+                communities for future generations
+            </p>
+          </div>
+          <div class="mission-grid">
+            <div class="mission-card">
+              <div class="mission-icon forest">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+                </svg>
+              </div>
+              <h3 class="mission-title">Enhance Soil Fertility</h3>
+              <p class="mission-description">
+                Promoting natural practices to revive soil health and support sustainable growth.
+              </p>
+            </div>
+            <div class="mission-card">
+              <div class="mission-icon nature">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M7 20a4 4 0 0 1-4-4 4 4 0 0 1 4-4 4 4 0 0 1 4 4 4 4 0 0 1-4 4Z"
+                  />
+                  <path
+                    d="M20 8a4 4 0 0 0-4-4 4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4Z"
+                  />
+                  <path d="M7 12h10" />
+                </svg>
+              </div>
+              <h3 class="mission-title">Plant and Protect Trees</h3>
+              <p class="mission-description">
+                Encouraging tree plantation and long-term care to improve air
+                 quality and strengthen ecosystems.
+              </p>
+            </div>
+            <div class="mission-card">
+              <div class="mission-icon ocean">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+                  <path d="M2 12h20" />
+                </svg>
+              </div>
+              <h3 class="mission-title">Educate Communities</h3>
+              <p class="mission-description">
+                Teaching communities about the importance of oxygen sources and
+                sustainable practices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Programs Highlight -->
+      <section class="programs" id="our-programs">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge">Our Programs</div>
+            <h2 class="section-title">Making a Real Impact</h2>
+          </div>
+          <div class="programs-grid">
+            <div class="program-card">
+              <div class="program-image">
+                <img src="./Images/Planting.jpg" alt="" srcset="">
+                <p>Tree Planting</p>
+              </div>
+              <div class="program-content">
+                <div class="program-tags">
+                  <span class="badge badge-forest">Active Program</span>
+                  <span class="badge badge-outline"
+                    >5,000+ trees planted this year</span
+                  >
+                </div>
+                <h3 class="program-title">Tree Planting Initiative</h3>
+                <p class="program-description">
+                  Expanding green cover by planting and nurturing trees in urban and rural areas
+                </p>
+    
+              </div>
+            </div>
+            <div class="program-card">
+              <div class="program-image">
+                <img src="./Images/Awareness.jpg" alt="" srcset="">
+                <p>Green Awareness</p>
+              </div>
+              <div class="program-content">
+                <div class="program-tags">
+                  <span class="badge badge-forest">Major Initiative</span>
+                  <span class="badge badge-outline">Inspired over 10,000 individuals</span>
+                </div>
+                <h3 class="program-title">Green Awareness Initiative</h3>
+                <p class="program-description">
+                  Raising environmental awareness and inspiring action through outreach and education
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Impact Numbers -->
+      <section class="impact">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title text-white">Our Impact by Numbers</h2>
+            <p class="section-description text-forest-200">
+              Real results from our dedicated community of volunteers and
+              supporters
+            </p>
+          </div>
+          <div class="impact-grid">
+            <div class="impact-stat">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
+              </svg>
+              <div class="impact-number">10,247</div>
+              <div class="impact-label">Trees Planted</div>
+            </div>
+            <div class="impact-stat">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="m22 21-3-3" />
+                <path d="m17 17 5 5" />
+              </svg>
+              <div class="impact-number">1,25</div>
+              <div class="impact-label">Active Volunteers</div>
+            </div>
+            <div class="impact-stat">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2" />
+                <path d="M9.6 4.6A2 2 0 1 1 11 8H2" />
+                <path d="M12.6 19.4A2 2 0 1 0 14 16H2" />
+              </svg>
+              <div class="impact-number">1M kg</div>
+              <div class="impact-label">CO₂ Absorbed</div>
+            </div>
+            <div class="impact-stat">
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"
+                />
+              </svg>
+              <div class="impact-number">50</div>
+              <div class="impact-label">Communities Served</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Join Us CTA -->
+      <section class="cta">
+        <div class="container">
+          <div class="cta-content">
+            <h2 class="cta-title">Ready to Make a Difference?</h2>
+            <p class="cta-description">
+              Join thousands of volunteers who are already helping to save our
+              planet's oxygen sources. Every action counts, every tree matters.
+            </p>
+            <div class="cta-buttons">
+              <a href="https://wa.me/919398461218?text=Hi%2C%20I%20want%20to%20join%20the%20Save%20Oxygen%20Foundation." class="btn btn-white btn-lg" target="_blank" rel="noopener noreferrer">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M22 11l-3-3" />
+                  <path d="M19 8v8" />
+                </svg>
+                Become a Volunteer
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Members-->
+      <!-- Team Section -->
+<section id="our-team" style="padding: 60px 0; background-color: var(--gray-50);">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 40px; color: var(--forest-800); font-size: 32px;">Meet Our Team</h2>
+    <div class="team-grid">
+      <!-- Team Member -->
+      <div class="team-card">
+        <img src="./Images/team/keshav.jpg" alt="Kesavalu">
+        <h4>Kesavalu</h4>
+        <p>Founder</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/siva.jpg" alt="Muni Sivaih">
+        <h4>Muni Sivaih</h4>
+        <p>President</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/mouli.JPG" alt="Mouli">
+        <h4>Mouli</h4>
+        <p>Secretary</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/hemalatha.jpg" alt="Hemalatha">
+        <h4>Hemalatha</h4>
+        <p>Treasurer</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/narendra.jpg" alt="Narendra">
+        <h4>Narendra</h4>
+        <p>Vice President</p>
+      </div>
+      <div class="team-card">
+        <img src="team6.jpg" alt="Raja Sekhar">
+        <h4>Raja Sekhar</h4>
+        <p>Executive</p>
+      </div>
+      <div class="team-card">
+        <img src="team7.jpg" alt="Nagaraju">
+        <h4>Nagaraju</h4>
+        <p>Executive</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/chanu.jpg" alt="Chan Basha">
+        <h4>Chan Basha</h4>
+        <p>Volunteer Lead</p>
+      </div>
+      <div class="team-card">
+        <img src="./Images/team/dilli.jpg" alt="Dilli Babu">
+        <h4>Dilli Babu</h4>
+        <p>Program Lead</p>
+      </div>
+      <div class="team-card">
+        <img src="team10.jpg" alt="Tulasi">
+        <h4>Tulasi</h4>
+        <p>Executive</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+      <!-- Latest Updates -->
+      <section class="updates">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-badge">Latest Updates</div>
+            <h2 class="section-title">Recent Achievements</h2>
+          </div>
+          <div class="updates-grid">
+            <div class="update-card">
+              <div class="update-header">
+                <span class="badge badge-secondary">Milestone</span>
+                <span class="update-date">June 6, 2025</span>
+              </div>
+              <h3 class="update-title">100th Volunteer Milestone</h3>
+              <p class="update-description">
+                We welcomed our 1000th volunteer to the Save Oxygen Foundation
+                family!
+              </p>
+            </div>
+            <div class="update-card">
+              <div class="update-header">
+                <span class="badge badge-secondary">Anniversary</span>
+                <span class="update-date">May 30, 2025</span>
+              </div>
+              <h3 class="update-title">4th Anniversary Celebration</h3>
+              <p class="update-description">
+                We proudly marked 4 years of environmental impact, community growth, and green initiatives!
+              </p>
+            </div>
+            <div class="update-card">
+              <div class="update-header">
+                <span class="badge badge-secondary">Achievement</span>
+                <span class="update-date">May 30, 2025</span>
+              </div>
+              <h3 class="update-title">10,000 Trees Planted</h3>
+              <p class="update-description">
+                Achieved our annual goal of planting 50,000 trees across the
+                region.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Gallery-->
+    <!-- Gallery Section -->
+<section id="gallery" style="padding: 60px 0; background-color: var(--gray-50);">
+  <div class="container">
+    <h2 style="text-align: center; margin-bottom: 40px; color: var(--forest-800); font-size: 32px;">Program Gallery</h2>
+
+    <!-- Gallery Card -->
+    <div class="gallery-card">
+      <h3>Tree Plantation Drive at Chintakalva</h3>
+      <div class="program-gallery">
+        <img src="./Images/Program1.jpg" alt="Tree Plantation">
+      </div>
+      <p class="program-description">A community tree plantation program conducted to promote green living and spread awareness on climate change.</p>
+      <div class="program-meta">
+        <span class="badge badge-forest">Plantation</span>
+        <span>📅 5th June 2025</span>
+        <span>🕒 9:00 AM</span>
+      </div>
+    </div>
+
+    <!-- Gallery Card -->
+    <div class="gallery-card">
+      <h3>Free Nursery at Kothakalva</h3>
+      <div class="program-gallery">
+        <img src="./Images/Program3.jpg" alt="Plant Distribution">
+      </div>
+      <p class="program-description">Inaugurated our free nursery to provide easy access to saplings and support community-led plantation efforts for a greener future.</p>
+      <div class="program-meta">
+        <span class="badge badge-forest">Distribution</span>
+        <span>📅 12th May 2022</span>
+        <span>🕒 10:30 AM</span>
+      </div>
+    </div>
+
+    <!-- Gallery Card -->
+    <div class="gallery-card">
+      <h3>4th Anniversary Program</h3>
+      <div class="program-gallery">
+        <img src="./Images/Program2.jpg" alt="Awareness Rally">
+      </div>
+      <p class="program-description">Celebrated our 4th anniversary by honoring volunteers, reviewing our journey, and planning impactful green initiatives for the future.</p>
+      <div class="program-meta">
+        <span class="badge badge-forest">Awareness</span>
+        <span>📅 30th May 2025</span>
+        <span>🕒 8:00 AM</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- Newsletter Section -->
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-content">
+            <h3 class="newsletter-title">Stay Connected with Our Mission</h3>
+            <p class="newsletter-description">
+              Get updates on our programs, success stories, and ways to make a
+              difference.
+            </p>
+            <form class="newsletter-form">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="newsletter-input"
+              />
+              <button type="submit" class="btn btn-primary">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="m22 2-7 20-4-9-9-4Z" />
+                  <path d="M22 2 11 13" />
+                </svg>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Main Footer -->
+      <div class="footer-main">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-section">
+              <div class="footer-logo">
+                <div class="logo-icon">
+                  <svg
+                    width="32"
+                    height="32"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"
+                    />
+                    <path
+                      d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"
+                    />
+                  </svg>
+                  <div class="logo-dot"></div>
+                </div>
+                <div class="logo-text">
+                  <span class="logo-title">Save Oxygen</span>
+                  <span class="logo-subtitle">Foundation</span>
+                </div>
+              </div>
+              <p class="footer-description">
+                Dedicated to preserving our planet's oxygen sources through
+                forest conservation, urban tree planting, and environmental
+                education. Every breath matters.
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-link">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                    <path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                  </svg>
+                </a>
+                <a href="#" class="social-link">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                    />
+                    <rect width="4" height="12" x="2" y="9" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="footer-section">
+              <h4 class="footer-title">Quick Links</h4>
+              <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="work.html">Our Work</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="volunteers.html">Volunteers</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4 class="footer-title">Get Involved</h4>
+              <ul class="footer-links">
+                <li><a href="join.html">Join as Volunteer</a></li>
+                <li><a href="#">Partner with Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="#">Future Goals</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4 class="footer-title">Contact Us</h4>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <div>
+                    <p>Kothakalva</p>
+                    <p>Papanaidupeta</p>
+                    <p>Tirupati, Andhra Pradesh 517526</p>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                    />
+                  </svg>
+                  <span>9398461218, 9010580148</span>
+                </div>
+                <div class="contact-item">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                  <span>saveoxygenfoundation@gmail.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-content">
+            <div class="copyright">
+              © 2025 Save Oxygen Foundation. All rights reserved.
+            </div>
+            <div class="footer-bottom-links">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
+              <div class="made-with-love">
+                <span>Made with</span>
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7Z"
+                  />
+                </svg>
+                <span>by Mouli</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
